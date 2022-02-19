@@ -118,7 +118,10 @@ data class SendMoneyItem(val imageId: Int, val name: String, val amount: String)
 
 @Composable
 fun ServicesSection() {
-    Column(modifier = Modifier.padding(horizontal = 20.dp)) {
+    Column(modifier = Modifier
+        .padding(horizontal = 20.dp)
+        .padding(top = 15.dp)
+    ) {
         Text(
             text = "Services",
             color = PrimaryGrey,
@@ -177,7 +180,8 @@ fun DataSection() {
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = 40.dp, vertical = 30.dp),
+            .padding(horizontal = 40.dp)
+            .padding(top = 30.dp),
         verticalAlignment = CenterVertically,
         horizontalArrangement = Arrangement.SpaceBetween
 
@@ -207,7 +211,7 @@ fun MoneyFlow(
             color = PrimaryGrey,
             fontFamily = poppins,
             modifier = Modifier.alpha(0.6f),
-            fontSize = 20.sp
+            fontSize = 15.sp
         )
     }
 }

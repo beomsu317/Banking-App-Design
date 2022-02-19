@@ -28,33 +28,42 @@ import com.bs.banking_app_design.ui.theme.PrimaryRed
 import com.bs.banking_app_design.ui.theme.poppins
 
 @Composable
-fun SplashScreen() {
+fun SplashScreen(
+    onNavigate: () -> Unit
+) {
     Column {
         Logo()
         Hero()
-    }
-    SplashImage()
-    Box(
-        modifier = Modifier
-            .size(60.dp)
-            .padding(end = 40.dp),
-        contentAlignment = Alignment.CenterEnd,
-    ) {
-        NextButton()
+        NextButton(onNavigate)
+        SplashImage()
     }
 }
 
 @Composable
-fun NextButton() {
-    FloatingActionButton(
-        onClick = { }, modifier = Modifier.size(60.dp),
-        backgroundColor = PrimaryGrey
+fun NextButton(
+    onNavigate: () -> Unit
+) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .size(70.dp)
+            .padding(top = 10.dp, end = 20.dp),
+        horizontalArrangement = Arrangement.End
     ) {
-        Icon(
-            imageVector = Icons.Default.ArrowForward,
-            contentDescription = "",
-            tint = Color.White
-        )
+        FloatingActionButton(
+            onClick = {
+                onNavigate()
+            },
+            modifier = Modifier
+                .size(60.dp),
+            backgroundColor = PrimaryGrey,
+        ) {
+            Icon(
+                imageVector = Icons.Default.ArrowForward,
+                contentDescription = "",
+                tint = Color.White
+            )
+        }
     }
 }
 
