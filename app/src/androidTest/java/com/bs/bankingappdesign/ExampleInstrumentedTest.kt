@@ -1,4 +1,4 @@
-package com.bs.banking_app_design
+package com.bs.bankingappdesign
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

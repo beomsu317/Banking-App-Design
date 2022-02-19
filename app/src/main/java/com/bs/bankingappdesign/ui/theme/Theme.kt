@@ -1,4 +1,4 @@
-package com.bs.banking_app_design.ui.theme
+package com.bs.bankingappdesign.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

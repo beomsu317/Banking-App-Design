@@ -1,4 +1,4 @@
-package com.bs.banking_app_design
+package com.bs.bankingappdesign
 
 import org.junit.Test
 

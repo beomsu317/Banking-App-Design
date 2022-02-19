@@ -1,7 +1,6 @@
-package com.bs.banking_app_design.ui.screens
+package com.bs.bankingappdesign.ui.screens
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.FloatingActionButton
 import androidx.compose.material.Icon
@@ -11,21 +10,18 @@ import androidx.compose.material.icons.filled.ArrowForward
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.bs.banking_app_design.R
-import com.bs.banking_app_design.ui.theme.LightGrey2
-import com.bs.banking_app_design.ui.theme.PrimaryGrey
-import com.bs.banking_app_design.ui.theme.PrimaryRed
-import com.bs.banking_app_design.ui.theme.poppins
+import com.bs.bankingappdesign.ui.theme.LightGrey2
+import com.bs.bankingappdesign.ui.theme.PrimaryGrey
+import com.bs.bankingappdesign.ui.theme.PrimaryRed
+import com.bs.bankingappdesign.ui.theme.poppins
 
 @Composable
 fun SplashScreen(
