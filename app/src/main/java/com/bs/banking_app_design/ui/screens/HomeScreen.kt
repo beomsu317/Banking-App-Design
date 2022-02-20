@@ -1,4 +1,4 @@
-package com.bs.bankingappdesign.ui.screens
+package com.bs.banking_app_design.ui.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
@@ -22,8 +22,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.bs.bankingappdesign.R
-import com.bs.bankingappdesign.ui.theme.*
+import com.bs.banking_app_design.R
+import com.bs.banking_app_design.ui.theme.*
 
 @Composable
 fun HomeScreen() {

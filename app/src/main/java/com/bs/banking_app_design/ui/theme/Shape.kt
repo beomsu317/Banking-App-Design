@@ -1,4 +1,4 @@
-package com.bs.bankingappdesign.ui.theme
+package com.bs.banking_app_design.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

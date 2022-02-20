@@ -1,4 +1,4 @@
-package com.bs.bankingappdesign
+package com.bs.banking_app_design
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,9 +10,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.bs.bankingappdesign.ui.screens.HomeScreen
-import com.bs.bankingappdesign.ui.screens.SplashScreen
-import com.bs.bankingappdesign.ui.theme.BankingAppDesignTheme
+import com.bs.banking_app_design.ui.screens.HomeScreen
+import com.bs.banking_app_design.ui.screens.SplashScreen
+import com.bs.banking_app_design.ui.theme.BankingAppDesignTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
