@@ -1,4 +1,4 @@
-# Banking-App-Design
+# Banking App
 
 ## App Preview
 
